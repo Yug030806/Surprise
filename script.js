@@ -3,7 +3,7 @@ const messages = [
     "Really sure??",
     "Please don't do this to me...",
     "I'm gonna cry...",
-    "You're breaking my heart! 💔"
+    
 ];
 
 let messageIndex = 0;
@@ -26,6 +26,6 @@ function moveButton() {
 
 function handleYesClick() {
     document.getElementById('question').innerHTML = "Yay! See you on the 14th! 🥰";
-    document.getElementById('display-image').src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2Zic3RndXN5am9hZ3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6JmRvbmU9MTcxMTE1Mzg1MA/G96zgIcFrn1ra/giphy.gif";
+    document.getElementById('display-image').src = "https://i.pinimg.com/736x/c3/8b/78/c38b78a013084eac88e776cd66a48ade.jpg";
     document.querySelector('.buttons').style.display = "none";
 }
