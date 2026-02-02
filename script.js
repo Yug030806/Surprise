@@ -26,6 +26,6 @@ function moveButton() {
 
 function handleYesClick() {
     document.getElementById('question').innerHTML = "Yay! See you on the 14th! 🥰";
-    document.getElementById('display-image').src = "";
+    document.getElementById('display-image').src = "https://i.pinimg.com/736x/c3/8b/78/c38b78a013084eac88e776cd66a48ade.jpg";
     document.querySelector('.buttons').style.display = "none";
 }
