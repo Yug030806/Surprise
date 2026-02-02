@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffdae0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container { text-align: center; }
+
+img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yesBtn { background-color: #ff4d6d; color: white; }
+
+#noBtn {
+    background-color: #808080;
+    color: white;
+    position: relative; /* Necessary for moving */
+}
